@@ -1,4 +1,4 @@
-package es.upm.miw.spai.ecp2ecp2;
+package es.upm.miw.spai.ecp2;
 
 import static org.junit.Assert.assertEquals;
 
@@ -31,6 +31,5 @@ public void testInitials(){
 	assertEquals("D.", usr.initials());
 	
 }
-
 
 }
