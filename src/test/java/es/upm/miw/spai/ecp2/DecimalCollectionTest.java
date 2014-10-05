@@ -10,6 +10,7 @@ public class DecimalCollectionTest {
 	
 	@Before
     public void before() {
+		dcol = new DecimalCollection();
         dcol.add(1.5);
         dcol.add(2.3);
         dcol.add(2.0);
