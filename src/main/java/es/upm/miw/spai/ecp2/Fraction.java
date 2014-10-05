@@ -59,5 +59,8 @@ public class Fraction {
     public double decimal() {
         return (double) numerator / denominator;
     }
-    
+
+    public Fraction multiply(Fraction fr){
+    	return null;
+    }
 }
