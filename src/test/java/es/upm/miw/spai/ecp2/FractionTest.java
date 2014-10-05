@@ -32,5 +32,13 @@ public class FractionTest {
         assertEquals(3.4, fr.decimal(),10^-2);
     }
 	
+	@Test
+	public void testMultiply(){
+		Fraction fr2 = new Fraction(1, 2);
+		Fraction resultado = this.fr.multiply(fr2);
+		
+		assertEquals(17, resultado.getNumerator());
+		assertEquals(10, resultado.getDenominator());
+	}
 	
 }
