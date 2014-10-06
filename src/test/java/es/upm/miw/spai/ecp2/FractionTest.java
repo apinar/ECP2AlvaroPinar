@@ -7,14 +7,10 @@ import org.junit.Test;
 
 public class FractionTest {
 	private Fraction fr;
-
-	@Before
-	public void before() {
-	    fr = new Fraction(17, 5);
-	}
 	
 	@Test
 	public void testFractionIntInt() {
+	    fr = new Fraction(17, 5);
         assertEquals(17, fr.getNumerator());
         assertEquals(5, fr.getDenominator());
     }
@@ -29,6 +25,7 @@ public class FractionTest {
 	
 	@Test
 	public void testDecimal() {
+	    fr = new Fraction(17, 5);
         assertEquals(3.4, fr.decimal(),10^-2);
     }
 	
