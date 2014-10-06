@@ -32,6 +32,13 @@ public class FractionTest {
         assertEquals(3.4, fr.decimal(),10^-2);
     }
 	
+	
+	@Test
+	public void testIsPropia() {
+	    fr = new Fraction(17, 5);
+	    assertEquals(true, fr.isPropia());
+    }
+	
 	@Test
 	public void testMultiply(){
 		Fraction fr2 = new Fraction(1, 2);
