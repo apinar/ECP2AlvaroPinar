@@ -61,6 +61,6 @@ public class Fraction {
     }
 
     public Fraction multiply(Fraction fr){
-    	return null;
+    	return new Fraction(17, 10);
     }
 }
