@@ -64,7 +64,7 @@ public class Fraction {
     	return new Fraction(17, 10);
     }
 
-	public Object isPropia() {
+	public Fraction isPropia() {
 		// TODO Auto-generated method stub
 		return null;
 	}
