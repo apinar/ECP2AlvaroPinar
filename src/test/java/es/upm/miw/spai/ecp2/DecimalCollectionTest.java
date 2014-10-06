@@ -33,7 +33,7 @@ public class DecimalCollectionTest {
 	
 	@Test
 	public void testMultiply() {
-        assertEquals(6,9, dcol.multiply(), 0);
+        assertEquals(6.9, dcol.multiply(), 0);
 	}
 }
 
