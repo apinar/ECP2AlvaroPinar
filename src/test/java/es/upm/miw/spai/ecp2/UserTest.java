@@ -34,7 +34,7 @@ public void testInitials(){
 
 @Test
 public void testUpper(){
-	assertEquals("PEREZ", usr.upper());
+	assertEquals("DAVID PEREZ", usr.upper());
 	
 }
 
