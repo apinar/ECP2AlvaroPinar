@@ -28,6 +28,12 @@ public void testFullName(){
 
 @Test
 public void testInitials(){
+	assertEquals("PEREZ", usr.upper());
+	
+}
+
+@Test
+public void testUpper(){
 	assertEquals("D.", usr.initials());
 	
 }
