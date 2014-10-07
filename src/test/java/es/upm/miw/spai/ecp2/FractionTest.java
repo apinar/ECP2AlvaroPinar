@@ -38,6 +38,7 @@ public class FractionTest {
 	
 	@Test
 	public void testMultiply(){
+	    fr = new Fraction(17, 5);
 		Fraction fr2 = new Fraction(1, 2);
 		Fraction resultado = this.fr.multiply(fr2);
 		
