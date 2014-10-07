@@ -70,6 +70,6 @@ public class Fraction {
 	}
 
     public boolean isEquivalente(Fraction fr){
-        return true;
+        return ((this.getNumerator() * fr.getDenominator()) == (this.getDenominator() * fr.getNumerator()));
     }
 }
