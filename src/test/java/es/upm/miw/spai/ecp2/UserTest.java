@@ -28,13 +28,13 @@ public void testFullName(){
 
 @Test
 public void testInitials(){
-	assertEquals("PEREZ", usr.upper());
+	assertEquals("D.", usr.initials());
 	
 }
 
 @Test
 public void testUpper(){
-	assertEquals("D.", usr.initials());
+	assertEquals("PEREZ", usr.upper());
 	
 }
 
