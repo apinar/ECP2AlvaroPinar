@@ -68,4 +68,8 @@ public class Fraction {
 		// TODO Auto-generated method stub
 		return null;
 	}
+
+    public boolean isEquivalente(Fraction fr){
+        return true;
+    }
 }
