@@ -40,6 +40,6 @@ public class User {
 
 	public String upper() {
 		// TODO Auto-generated method stub
-		return null;
+		return this.familyName.toUpperCase();
 	}
 }
