@@ -64,9 +64,8 @@ public class Fraction {
     	return new Fraction(17, 10);
     }
 
-	public Fraction isPropia() {
-		// TODO Auto-generated method stub
-		return null;
+	public boolean isPropia() {
+		return this.numerator < this.denominator;
 	}
 
     public boolean isEquivalente(Fraction fr){
