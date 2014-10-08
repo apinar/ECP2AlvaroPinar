@@ -32,4 +32,10 @@ public void testInitials(){
 	
 }
 
+@Test
+public void testUpper(){
+	assertEquals("DAVID PEREZ", usr.upper());
+	
+}
+
 }

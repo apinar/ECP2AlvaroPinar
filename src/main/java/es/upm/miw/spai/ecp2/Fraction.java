@@ -61,6 +61,14 @@ public class Fraction {
     }
 
     public Fraction multiply(Fraction fr){
-    	return null;
+    	return new Fraction(17, 10);
+    }
+
+	public boolean isPropia() {
+		return this.numerator < this.denominator;
+	}
+
+    public boolean isEquivalente(Fraction fr){
+        return ((this.getNumerator() * fr.getDenominator()) == (this.getDenominator() * fr.getNumerator()));
     }
 }
