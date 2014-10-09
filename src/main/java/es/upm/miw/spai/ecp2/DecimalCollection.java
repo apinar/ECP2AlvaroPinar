@@ -36,8 +36,11 @@ public class DecimalCollection {
     }
 
 	public double multiply() {
-		// TODO Auto-generated method stub
-		return 0;
+		double resultado = 1;
+		for(double numero : this.collection){
+			resultado *= numero;
+		}
+		return resultado;
 	}
 
 }

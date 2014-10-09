@@ -61,12 +61,13 @@ public class Fraction {
     }
 
     public Fraction multiply(Fraction fr){
-    	return new Fraction(17, 10);
+        int num=this.numerator*fr.getNumerator();
+        int den=this.denominator*fr.getDenominator();
+    	return new Fraction(num, den);
     }
 
-	public Fraction isPropia() {
-		// TODO Auto-generated method stub
-		return null;
+	public boolean isPropia() {
+		return this.numerator < this.denominator;
 	}
 
     public boolean isEquivalente(Fraction fr){

@@ -43,6 +43,8 @@ public class Point {
     }
 
     public void modify(int newX, int newY){
+        this.x=newX;
+        this.y=newY;
     }
 
 }
